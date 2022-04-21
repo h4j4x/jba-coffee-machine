@@ -1,9 +1,11 @@
+@file:JvmName("Main")
+
 package org.h4j4x.coffeemachine
 
 import org.h4j4x.coffeemachine.error.InsufficientIngredientError
 import org.h4j4x.coffeemachine.model.CoffeeType
 
-fun main(args: Array<String>) {
+fun main() {
     val coffeeMachine = CoffeeMachine()
     var option: String
     do {
